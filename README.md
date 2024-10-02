@@ -5,15 +5,15 @@
 
 <img width="1728" alt="Display_state" src="https://github.com/user-attachments/assets/07b8a439-d726-4d95-bbd5-242700f7cb76">
 
-State based on display. - Grouping by user is selected.
+**State based on display. - Grouping by user is selected.**
 
 <img width="1728" alt="Grouping" src="https://github.com/user-attachments/assets/5dc65c6f-e78c-4723-9f88-257b92fdc539">
 
-Grouping by priority is selected.
+**Grouping by priority is selected.**
 
 <img width="1728" alt="Grouping_priority" src="https://github.com/user-attachments/assets/0bbb8a6b-7f77-47b0-91e4-1f2a2e3c46fd">
 
-Card:
+**Card:**
 
 <img width="837" alt="Card" src="https://github.com/user-attachments/assets/df29dd75-c187-4235-a729-bbd000124f9e">
 
