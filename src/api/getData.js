@@ -4,13 +4,12 @@ export const fetchAllData = () => async (dispatch) =>{
     try {
         dispatch({type : 'DATA_REQUEST'})
     
-        const {data} = await axios.get("https://api.quicksell.co/v1/internal/frontend-assignment");
-        console.log(data)
+        const {data} = await axios.get("https://api.quicksell.co/v1/internal/frontend-assignment/");
 
-        dispatch({type : 'success', payload : data});
+        dispatch({type : 'DATA_SUCCESS', payload : data});
 
     } catch (error) {
-        dispatch({type : 'fail'})
+        dispatch({type : 'DATA_FAILURE'})
     }
 }
 
@@ -83,9 +82,9 @@ export const selectData = (group, allTickets, orderValue) => async (dispatch) =>
             })
         }
         
-        dispatch({type : 'succcess', payload : {selectedData, user}});
+        dispatch({type : 'SELECT_DATA_SUCCESS', payload : {selectedData, user}});
 
     } catch (error) {
-        dispatch({type : 'fail', payload : error.message})
+        dispatch({type : 'SELECT_DATA_FAILURE', payload : error.message})
     }
 }
